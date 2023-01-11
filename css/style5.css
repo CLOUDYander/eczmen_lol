@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline:none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background-size: 100%;
+background-color: #ffffff;
+align-items: center;
+}
+
+#main_text{
+
+margin-top: 100px;
+font-size: 24px;
+color: rgb(255, 44, 90);;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+color: rgb(255, 44, 90);;
+}
+
+#step{
+margin-top: 15%;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 25px;
+
+text-align: center;
+
+color: #000000;
+}
+
+#line{
+    width: 380px;
+    margin-top: 10%; 
+    border: 1px solid rgb(255, 44, 90);;
+}
+
+#name{
+padding-top: 70px;
+font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+color: #000000;
+}
+
+#name_input, #name_input2, #name_input3, #name_input2_2 {
+position: absolute;
+width: 50%;
+height: 60px;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+text-align:center;
+color: rgba(0, 0, 0, 0.781);
+border: 1px solid rgb(255, 44, 90);;
+
+
+border-radius: 10px;
+}
+
+#enter_with_help{
+    font-size: 24px;
+    margin-top: 5%;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+
+color: #000000;
+}
+
+button{
+    margin-top: 2%;
+    background: none;
+    outline: none !important;
+}
+
+img{
+    width: 48px;
+    height: 48px;
+    outline:none;
+}
+
+#but_reg{
+margin-top: 5%;
+width: 300px;
+height: 80px;
+background: rgb(255, 44, 90);;
+backdrop-filter: blur(100px);
+color: #000000;
+font-size: 24px;
+border-radius: 10px;
+}
+
+#license{
+    margin-top: 2%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.input{
+padding-right: 40%;
+}

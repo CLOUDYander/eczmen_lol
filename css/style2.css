@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline:none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+height: 100%;
+background-color: #fffcfc;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+#logo {
+    display: flex;
+width: 200px;
+
+}
+
+#step1{
+height: 25px;
+margin-top: 100px;
+margin-bottom: 5%;  
+font-size: 24px;
+line-height: 25px;
+    
+text-align: center;
+    
+color: #000000;
+    
+}
+
+#line {
+    width: 280px;
+    height: 0px;
+    margin-bottom:50px;
+    border: 1px solid #000000;   
+}
+
+#main_text1{
+    font-size: 24px;
+    text-align: center;
+    
+    color:#000000; 
+}
+
+.step_button{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 50px; 
+    align-items: center;
+    justify-content: center;
+}
+.step_button > button{
+    height: 28px;
+    width: 70px;
+    border-radius: 30px;
+    margin-left: 1%;
+}
+
+#but_cont{
+    width: 250px;
+    height: 62px;
+    margin-top: 100px;
+        
+    background: rgb(255, 44, 90);
+    backdrop-filter: blur(4px);
+        
+    border-radius: 15px;
+        }
+
+        #but_text{
+            font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 22px;
+        
+        color: #FFFFFF;
+        }

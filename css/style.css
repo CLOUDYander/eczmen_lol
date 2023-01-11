@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline:none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    height: 100%;
+    outline:none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    #logo {
+    width: 297px;
+    height: 297px;
+    border: none;
+    margin-top: 30%;
+    margin-left: 20%;
+    margin-bottom: 30%;
+    }
+    
+    #p{
+    margin-top: 5%;
+    margin-bottom: 30%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 22px;
+    
+    text-align: center;
+    
+
+    }
+    #year{
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    
+    text-align: center;
+    }
